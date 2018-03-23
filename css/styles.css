@@ -17,14 +17,25 @@ body{
     padding-bottom: 5em;
 }
 .tabs{
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-image: url("../img/backgrounds/foodsBg.jpg");
     padding-top: 19em;
     padding-bottom: 19em;
+    color: white;
 }
 .new-container{
     padding-right: 25px;
     padding-left: 25px;
     margin-right: auto;
     margin-left: auto;
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+.subscribe{
+    background-attachment: scroll;
+    background-image: url("../img/backgrounds/subscribe.jpg");
+    padding-top: 8.5em;
+    padding-bottom: 8.5em;
+    color: white;
+    text-align: center;
 }
