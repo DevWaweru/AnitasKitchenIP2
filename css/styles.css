@@ -39,3 +39,13 @@ body{
     color: white;
     text-align: center;
 }
+.ending{
+    background-color: #F15A29;
+    
+}
+.end-text{
+    color: white;
+    text-align: center;
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
