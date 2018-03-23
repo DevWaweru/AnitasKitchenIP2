@@ -8,3 +8,11 @@
     padding-top: 10em;
     padding-bottom: 10em;
 }
+body{
+    margin-left: 0;
+    margin-right: 0;
+}
+.first, .second{
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
