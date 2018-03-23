@@ -1,0 +1,10 @@
+.master{
+    background-attachment: fixed;
+    background-image: url("../img/backgrounds/landing.jpg");
+    text-align: center;
+    color: white;
+}
+.tops{
+    padding-top: 10em;
+    padding-bottom: 10em;
+}
