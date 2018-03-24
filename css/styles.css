@@ -20,8 +20,8 @@ body{
 .tabs{
     background-attachment: scroll;
     background-image: url("../img/backgrounds/foodsBg.jpg");
-    padding-top: 3em;
-    padding-bottom: 19em;
+    padding-top: 6em;
+    padding-bottom: 7em;
     color: white;
 }
 .new-container{
@@ -40,6 +40,9 @@ body{
     color: white;
     text-align: center;
 }
+.nav{
+    background-color: #D3D3D3;
+}
 .ending{
     background-color: #F15A29;
     
@@ -51,8 +54,8 @@ body{
     padding-bottom: 3em;
 }
 .ffoods{
-    padding-top: 3em;
-    padding-bottom: 3em;
+    padding-top: 5em;
+    padding-bottom: 5em;
     background-color: white;
     text-align: center;
 }
@@ -88,10 +91,16 @@ body{
     text-align: center;
     padding: 3%;
     border-radius: 0;
+    vertical-align: middle;
 }
 .ffods img{
     width: 100%;
 }
 .drnks img{
-    height: 100%;
+    height: auto;
+    max-width: 100%;
+    size: cover;
+}
+.text-second{
+    text-align: right;
 }
