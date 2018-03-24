@@ -1,3 +1,7 @@
+@font-face{
+    font-family: 'Julius Sans';
+    src: url('../fonts/Julius Sans.woff2');
+}
 .master{
     background-attachment: fixed;
     background-image: url("../img/backgrounds/landing.jpg");
@@ -21,6 +25,12 @@ body{
 .first, .second{
     padding-top: 5em;
     padding-bottom: 5em;
+}
+.first h3, .second h3{
+    font-family: "Julius Sans", sans-serif;
+}
+.first h1, .second h1{
+    font-family: 'Roboto Slab', serif;
 }
 .tabs{
     background-attachment: scroll;
@@ -128,6 +138,10 @@ body{
 }
 .text-second{
     text-align: right;
+    padding-right: 5em;
+}
+.text-first{
+    padding-left: 5em;
 }
 .form-control{
     background-color: rgba(255, 255, 255, 0.315);
@@ -139,4 +153,7 @@ body{
 }
 .fa{
     color: white;
+}
+.tops{
+    font-family: 'Julius Sans', sans-serif;
 }
