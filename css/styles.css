@@ -32,6 +32,24 @@ body{
     padding-top: 5em;
     padding-bottom: 5em;
 }
+.customers{
+    box-shadow: 2px 4px 12px 2px #DCDCDC;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+.col-md-7{
+    padding-left: 4em;
+    padding-right: 4em;
+    text-align: center;
+}
+.col-md-5{
+    text-align: center;
+    padding-left: 4em;
+    padding-right: 4em;
+    border-left: solid;
+    border-width: thin;
+    border-color: grey;
+}
 .subscribe{
     background-attachment: fixed;
     background-image: url("../img/backgrounds/subscribe.jpg");
