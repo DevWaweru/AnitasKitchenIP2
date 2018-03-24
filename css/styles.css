@@ -9,6 +9,12 @@
     text-align: center;
     color: white;
 }
+.fa{
+    color: white;
+}
+.glyphicon{
+    width: 8%;
+}
 .tops{
     padding-top: 15%;
     padding-bottom: 15%;
@@ -56,6 +62,11 @@ body{
     box-shadow: 2px 4px 12px 2px #DCDCDC;
     padding-top: 2em;
     padding-bottom: 2em;
+    font-family: 'Roboto Slab', serif;
+    color: rgb(65, 63, 63);
+}
+.customers h3{
+    color: #F15A29;
 }
 .col-md-7{
     padding-left: 4em;
@@ -68,7 +79,7 @@ body{
     padding-right: 4em;
     border-left: solid;
     border-width: thin;
-    border-color: grey;
+    border-color: rgba(128, 128, 128, 0.57);
 }
 .subscribe{
     background-attachment: scroll;
@@ -97,11 +108,14 @@ body{
     border-top-left-radius: 0;
     border-width: 0.01em;
 }
+.nav-food:hover a{
+    color: #F15A29;
+}
 .nav-food:active a{
     color: #F15A29;
 }
-.nav-food:hover a{
-    color: #F15A29;
+.subscribe h2{
+    font-family: 'Julius Sans', sans-serif;
 }
 .ending{
     background-color: #F15A29;
@@ -123,8 +137,19 @@ body{
     padding-left: 0;
     padding-right: 0;
 }
-.buton-go{
-    font-size: 16px;
+.btn-lg{
+    color: #F15A29;
+    border-color: #F15A29;
+    font-family: 'Julius Sans',sans-serif;
+    font-size: bold;
+}
+.btn-lg:hover{
+    background-color: #F15A29;
+    color: white;
+}
+.btn-lg:active{
+    background-color: #F15A29;
+    color: white;
 }
 #pic-breakfast{
     background-image: url("../img/foodtop/breakfast.jpg");
@@ -175,9 +200,6 @@ body{
     margin-right: 3em;
     vertical-align: middle;
     color: black;
-}
-.fa{
-    color: white;
 }
 .tops{
     font-family: 'Julius Sans', sans-serif;
