@@ -9,6 +9,11 @@
     padding-top: 15%;
     padding-bottom: 15%;
 }
+#subscribe{
+    background-color: #F15A29;
+    border-color: #F15A29;
+    width: 12vw;
+}
 body{
     margin-left: 0;
     margin-right: 0;
@@ -123,4 +128,12 @@ body{
 }
 .text-second{
     text-align: right;
+}
+.form-control{
+    background-color: rgba(255, 255, 255, 0.315);
+    border-width: 0;
+    padding-right: 5em;
+    margin-right: 3em;
+    vertical-align: middle;
+    color: black;
 }
