@@ -22,8 +22,12 @@ body{
     margin-left: 0;
     margin-right: 0;
 }
-.first, .second{
+.first{
     padding-top: 5em;
+    padding-bottom: 2em;
+}
+.second{
+    padding-top: 2em;
     padding-bottom: 5em;
 }
 .first h3, .second h3{
@@ -77,6 +81,27 @@ body{
 }
 .nav{
     background-color: #D3D3D3;
+}
+.nav-tabs{
+    border-bottom: 1px solid #ddd;
+}
+.nav-tabs a{
+    font-family: 'Scope One', serif;
+    font-size: 17px;
+    font-weight: bold;
+    color:rgba(0, 0, 0, 0.7);
+}
+.nav-food{
+    border: solid gray;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+    border-width: 0.01em;
+}
+.nav-food:active a{
+    color: #F15A29;
+}
+.nav-food:hover a{
+    color: #F15A29;
 }
 .ending{
     background-color: #F15A29;
