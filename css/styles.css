@@ -1,12 +1,13 @@
 .master{
     background-attachment: fixed;
     background-image: url("../img/backgrounds/landing.jpg");
+    background-size: cover;
     text-align: center;
     color: white;
 }
 .tops{
-    padding-top: 10em;
-    padding-bottom: 10em;
+    padding-top: 15%;
+    padding-bottom: 15%;
 }
 body{
     margin-left: 0;
@@ -19,7 +20,7 @@ body{
 .tabs{
     background-attachment: scroll;
     background-image: url("../img/backgrounds/foodsBg.jpg");
-    padding-top: 19em;
+    padding-top: 3em;
     padding-bottom: 19em;
     color: white;
 }
@@ -32,7 +33,7 @@ body{
     padding-bottom: 5em;
 }
 .subscribe{
-    background-attachment: scroll;
+    background-attachment: fixed;
     background-image: url("../img/backgrounds/subscribe.jpg");
     padding-top: 8.5em;
     padding-bottom: 8.5em;
@@ -48,4 +49,41 @@ body{
     text-align: center;
     padding-top: 3em;
     padding-bottom: 3em;
+}
+.ffoods{
+    padding-top: 3em;
+    padding-bottom: 3em;
+    background-color: white;
+    text-align: center;
+}
+.col-md-3{
+    padding-left: 0;
+    padding-right: 0;
+}
+.buton-go{
+    font-size: 16px;
+}
+#pic-breakfast{
+    background-image: url("../img/foodtop/breakfast.jpg");
+    background-size: cover;
+}
+#pic-lunch{
+    background-image: url("../img/foodtop/lunch.jpg");
+    background-size: cover;
+}
+#pic-dinner{
+    background-image: url("../img/foodtop/dinner.jpg");
+    background-size: cover;
+}
+.foodtop{
+    text-align: center;
+    color: white;
+}
+.foodtop p{
+    padding-top: 30%;
+    padding-bottom: 30%;
+}
+.group-pics{
+    box-shadow: 1px 0px 6px 5px rgba(87,84,87,0.63);
+    text-align: center;
 }
