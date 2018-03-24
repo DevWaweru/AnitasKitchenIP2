@@ -20,6 +20,7 @@ body{
 .tabs{
     background-attachment: scroll;
     background-image: url("../img/backgrounds/foodsBg.jpg");
+    background-size: cover;
     padding-top: 6em;
     padding-bottom: 7em;
     color: white;
@@ -51,8 +52,9 @@ body{
     border-color: grey;
 }
 .subscribe{
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-image: url("../img/backgrounds/subscribe.jpg");
+    background-size: cover;
     padding-top: 8.5em;
     padding-bottom: 8.5em;
     color: white;
