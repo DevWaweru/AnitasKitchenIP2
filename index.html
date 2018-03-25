@@ -8,165 +8,206 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Caveat' rel='stylesheet'>
     <link rel="stylesheet" href="css/font-awesome.css" type="text/css">
     <link rel="stylesheet" href="css/styles.css" type="text/css">
     <title>Anita's Kitchen | Home</title>
 </head>
 <body>
-    <header class="master">
-        <div class="tops">
-            <img src="img/logoBig.png" alt="logo">
-            <h1>We Provide The Best Food <br> At the <strong>Right Price</strong></h1>
-        </div>
-    </header>
     <div class="container-fluid">
-        <div class="row foodtop">
-            <div class="col-md-3">
-                <div>
-                    <p>Breakfast</p>
-                </div>                
-            </div> 
-            <div class="col-md-3">
-                <div id="pic-breakfast">
-                    <p>Breakfast</p>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div id="pic-lunch">
-                    <p>Lunch</p>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div id="pic-dinner">
-                    <p>Dinner</p>
-                </div>
-            </div> 
+        <div class="nav navbar-default navbar-transparent navbar-fixed-top navbar-burger" id="navigation">
+            <a><span onclick="openNav()"><i class="fa fa-bars fa-3x"></i></span></a>
         </div>
-    </div>
-
-    <div class="container">
-        <div class="row first">
-            <div class="col-md-6">
-                <div class="group-pics ffods">
-                    <img src="img/fastFood1.jpg" alt="fastfood1">
-                    <img src="img/fastFood2.jpg" alt="fastfood2">
-                </div>
+        <div class="menutop" id="myNav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="menutop-content">
+                <a href="#">Contacts</a>
+                <a href="#">Events</a>
+                <a href="#">Menu</a>
             </div>
-            <div class="col-md-6 text-first">
-                <h1>Fast Food</h1>
-                <h3>You'll Love our delicious fast food</h3>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                    when an unknown printer took a galley of type and scrambled it to make a type 
-                    specimen book. It has survived not only five centuries, but also the leap into 
-                    electronic typesetting, remaining essentially unchanged. It was popularised in 
-                    the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
-                    and more recently with desktop publishing software like Aldus PageMaker including 
-                    versions of Lorem Ipsum.
-                </p>
-                <a href="#" class="btn btn-lg text-uppercase"><span class="buton">View Gallery</span> <span class="glyphicon glyphicon-arrow-right"></span></a>
-            </div>            
         </div>
-
-
-        <div class="row second">
-            <div class="col-md-6 text-second">
-                <h1>Drinks</h1>
-                <h3>We also produce delicious Drinks</h3>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                    when an unknown printer took a galley of type and scrambled it to make a type 
-                    specimen book. It has survived not only five centuries, but also the leap into 
-                    electronic typesetting, remaining essentially unchanged. It was popularised in 
-                    the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
-                    and more recently with desktop publishing software like Aldus PageMaker including 
-                    versions of Lorem Ipsum.
-                </p>
-                <a href="#" class="btn btn-lg text-uppercase"><span class="buton">View Gallery</span><span class="glyphicon glyphicon-arrow-right"></span></a>
-            </div>  
-            <div class="col-md-6">
-                <div class="group-pics drnks">
-                    <img src="img/drink1.jpg" alt="drink1">
-                    <img src="img/drink2.jpg" alt="drink2">
+        <header class="master">
+            <div class="tops">
+                <img src="img/logoBig.png" alt="logo">
+                <h1>We Provide The Best Food <br> At the <strong>Right Price</strong></h1>
+            </div>
+        </header>
+        <!-- <div class="container-fluid"> -->
+            <div class="row foodtop">
+                <div class="col-md-3">
+                    <div>
+                        <p>Breakfast</p>
+                    </div>                
+                </div> 
+                <div class="col-md-3">
+                    <div id="pic-breakfast">
+                        <p>Breakfast</p>
+                    </div>
                 </div>
-            </div>          
-        </div>
-    </div>
+                <div class="col-md-3">
+                    <div id="pic-lunch">
+                        <p>Lunch</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div id="pic-dinner">
+                        <p>Dinner</p>
+                    </div>
+                </div> 
+            </div>
+        <!-- </div> -->
 
-    <div class="container-fluid tabs">
         <div class="container">
-            <ul class="nav nav-tabs nav-justified">
-                <li class="nav-food active"><a href="#foodie" data-toggle="tab">Fast Food</a></li>
-                <li class="nav-food"><a href="#drinks" data-toggle="tab">Drinks</a></li>
-                <li class="nav-food"><a href="#chicken" data-toggle="tab">Chicken</a></li>
-                <li class="nav-food"><a href="#rice" data-toggle="tab">Rice</a></li>
-            </ul>
-            <div class="tab-content ffoods">
-                <div id="foodie" class="tab-pane fade in active">
-                    <img src="img/fastfood/beefBurger.jpg" alt="beefburger">
-                    <img src="img/fastfood/chickenBurger.jpg" alt="chickenburger">
-                    <img src="img/fastfood/chickenPizza.jpg" alt="chickenpizza">
+            <div class="row first">
+                <div class="col-md-6">
+                    <div class="group-pics ffods">
+                        <img src="img/fastFood1.jpg" alt="fastfood1">
+                        <img src="img/fastFood2.jpg" alt="fastfood2">
+                    </div>
                 </div>
-                <div id="drinks" class="tab-pane fade">
-                    <img src="img/fastfood/chickenBurger.jpg" alt="chickenburger">
-                </div>
-                <div id="chicken" class="tab-pane fade">
-                    <img src="img/fastfood/beefBurger.jpg" alt="beefburger">
-                </div>
-                <div id="rice" class="tab-pane fade">
-                    <img src="img/fastfood/chickenPizza.jpg" alt="chickenpizza">
-                </div>
-            </div>
-        </div>       
-    </div>
- 
-    <div class="container">
-        <div class="new-container">
-            <div class="row customers">
-                <div class="col-md-7">
-                    <h3>Our Happy Customers</h3>
-                    <h4><strong>George Richard</strong></h4>
-                    <p>Great food! Menu is awesome. The foods are not only great but also in the right price. 
-                        I'll highly recommend them:)
+                <div class="col-md-6 text-first">
+                    <h1>Fast Food</h1>
+                    <h3>You'll Love our delicious fast food</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                        when an unknown printer took a galley of type and scrambled it to make a type 
+                        specimen book. It has survived not only five centuries, but also the leap into 
+                        electronic typesetting, remaining essentially unchanged. It was popularised in 
+                        the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+                        and more recently with desktop publishing software like Aldus PageMaker including 
+                        versions of Lorem Ipsum.
                     </p>
-                    <img src="img/customers/p1.png" alt="customer1">
-                    <img src="img/customers/p2.png" alt="customer2">
-                    <img src="img/customers/p3.png" alt="customer3">
-                </div>
-                <div class="col-md-5">
-                    <h3>About Menu</h3>
-                    <p>We are menu a little team of 7 members.Lorem ipsum dolor sit amet, consectetur 
-                        adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna 
-                        aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-                        nisi ut aliquip ex ea commodo consequat.  
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-12 subscribe">
-                <h2>Get our daily food items delivered to your email.</h2>
-                <form action="sumbit" class="form-inline">
-                    <input type="email" class="form-control mr-sm-6" placeholder="Your Email">
-                    <button id="subscribe" type="submit" class="btn btn-primary btn-lg">Subscribe</button>
-                </form>
+                    <a href="#" class="btn btn-lg text-uppercase"><span class="buton">View Gallery</span>  <span class="glyphicon glyphicon-arrow-right"></span></a>
+                </div>            
             </div>
 
+
+            <div class="row second">
+                <div class="col-md-6 text-second">
+                    <h1>Drinks</h1>
+                    <h3>We also produce delicious Drinks</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                        when an unknown printer took a galley of type and scrambled it to make a type 
+                        specimen book. It has survived not only five centuries, but also the leap into 
+                        electronic typesetting, remaining essentially unchanged. It was popularised in 
+                        the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+                        and more recently with desktop publishing software like Aldus PageMaker including 
+                        versions of Lorem Ipsum.
+                    </p>
+                    <a href="#" class="btn btn-lg text-uppercase"><span class="buton">View Gallery</span>  <span class="glyphicon glyphicon-arrow-right"></span></a>
+                </div>  
+                <div class="col-md-6">
+                    <div class="group-pics drnks">
+                        <img src="img/drink1.jpg" alt="drink1">
+                        <img src="img/drink2.jpg" alt="drink2">
+                    </div>
+                </div>          
+            </div>
         </div>
+
+        <div class="tabs">
+            <div class="container">
+                <ul class="nav nav-tabs nav-justified">
+                    <li class="nav-food active"><a href="#foodie" data-toggle="tab">Fast Food</a></li>
+                    <li class="nav-food"><a href="#drinks" data-toggle="tab">Drinks</a></li>
+                    <li class="nav-food"><a href="#chicken" data-toggle="tab">Chicken</a></li>
+                    <li class="nav-food"><a href="#rice" data-toggle="tab">Rice</a></li>
+                </ul>
+                <div class="tab-content ffoods">
+                    <div id="foodie" class="tab-pane fade in active">
+                        <div class="row row-food">
+                            <div class="col-md-4 col-food">
+                                <img src="img/fastfood/beefBurger.jpg" alt="beefburger"><br>
+                                <p>Beef Burger</p>
+                            </div>
+                            <div class="col-md-4 col-food">
+                                <img src="img/fastfood/chickenBurger.jpg" alt="chickenburger"><br>
+                                <p>Chicken Burger</p>
+                            </div>
+                            <div class="col-md-4 col-food">
+                                <img src="img/fastfood/chickenPizza.jpg" alt="chickenpizza"><br>
+                                <p>Chicken Pizza</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="drinks" class="tab-pane fade">
+                        <div class="row row-food">
+                            <div class="col-md-12 col-food">
+                                <img src="img/fastfood/chickenBurger.jpg" alt="chickenburger">
+                                <p>Chicken Burger</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="chicken" class="tab-pane fade">
+                        <div class="row row-food">
+                            <div class="col-md-12 col-food">
+                                <img src="img/fastfood/beefBurger.jpg" alt="beefburger">
+                                <p>Beef Burger</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="rice" class="tab-pane fade">
+                        <div class="row row-food">
+                            <div class="col-md-12 col-food">
+                                <img src="img/fastfood/chickenPizza.jpg" alt="chickenpizza">
+                                <p>Chicken pizza</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>       
+        </div>
+    
+        <div class="container">
+            <div class="new-container">
+                <div class="row customers">
+                    <div class="col-md-7">
+                        <h3>Our Happy Customers</h3>
+                        <h4><strong>George Richard</strong></h4>
+                        <p>Great food! Menu is awesome. The foods are not only great but also in the right price. 
+                            I'll highly recommend them:)
+                        </p>
+                        <img src="img/customers/p1.png" alt="customer1">
+                        <img src="img/customers/p2.png" alt="customer2">
+                        <img src="img/customers/p3.png" alt="customer3">
+                    </div>
+                    <div class="col-md-5">
+                        <h3>About Menu</h3>
+                        <p>We are menu a little team of 7 members.Lorem ipsum dolor sit amet, consectetur 
+                            adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna 
+                            aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                            nisi ut aliquip ex ea commodo consequat.  
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="container-fluid"> -->
+            <div class="row">
+                <div class="col-md-12 subscribe">
+                    <h2>Get our daily food items delivered to your email.</h2>
+                    <form action="sumbit" class="form-inline">
+                        <input type="email" class="form-control mr-sm-6" placeholder="Your Email">
+                        <button id="subscribe" type="submit" class="btn btn-primary btn-lg">Subscribe</button>
+                    </form>
+                </div>
+
+            </div>
+        <!-- </div> -->
+        <footer class="ending">
+            <div class="end-text">
+                <h2 class="text-uppercase"><img src="img/footerlogos/logo_white.png" alt="whitelogo">  Menu</h2>
+                <h4>Thats what we are</h4> 
+                <ul class="list-inline">
+                    <li class="list-inline-item"><a href="#"><i class="fa fa-facebook fa-2x"></i></a></li>
+                    <li class="list-inline-item"><a href="#"><i class="fa fa-twitter fa-2x"></i></a></li>
+                    <li class="list-inline-item"><a href="#"><i class="fa fa-pinterest fa-2x"></i></a></li>
+                </ul>
+                <h5>2018 Menu Restaurant</h5>
+            </div>
+        </footer>
     </div>
-    <footer class="ending">
-        <div class="end-text">
-            <h2 class="text-uppercase"><img src="img/footerlogos/logo_white.png" alt="whitelogo">  Menu</h2>
-            <h4>Thats what we are</h4> 
-            <ul class="list-inline">
-                <li class="list-inline-item"><a href="#"><i class="fa fa-facebook fa-2x"></i></a></li>
-                <li class="list-inline-item"><a href="#"><i class="fa fa-twitter fa-2x"></i></a></li>
-                <li class="list-inline-item"><a href="#"><i class="fa fa-pinterest fa-2x"></i></a></li>
-            </ul>
-            <h5>2018 Menu Restaurant</h5>
-        </div>
-    </footer>
+    <script src="js/scripts.js"></script>
 </body>
 </html>

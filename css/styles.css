@@ -19,11 +19,6 @@
     padding-top: 15%;
     padding-bottom: 15%;
 }
-#subscribe{
-    background-color: #F15A29;
-    border-color: #F15A29;
-    width: 12vw;
-}
 body{
     margin-left: 0;
     margin-right: 0;
@@ -90,6 +85,12 @@ body{
     color: white;
     text-align: center;
 }
+#subscribe{
+    background-color: #F15A29;
+    border-color: #F15A29;
+    width: 12vw;
+    color: white;
+}
 .nav{
     background-color: #D3D3D3;
 }
@@ -110,6 +111,20 @@ body{
 }
 .nav-food:hover a{
     color: #F15A29;
+}
+.col-food{
+    padding: 0;
+    color: #F15A29;
+    font-family: 'Roboto Slab',serif;
+    width: auto;
+    text-align: center;
+}
+.row-food{
+    display: flex;
+    justify-content: center;
+}
+.col-food img{
+    padding: 1em;
 }
 .nav-food:active a{
     color: #F15A29;
@@ -137,19 +152,15 @@ body{
     padding-left: 0;
     padding-right: 0;
 }
+.btn-lg:hover{
+    background-color: #F15A29;
+    color: white;
+}
 .btn-lg{
     color: #F15A29;
     border-color: #F15A29;
     font-family: 'Julius Sans',sans-serif;
     font-size: bold;
-}
-.btn-lg:hover{
-    background-color: #F15A29;
-    color: white;
-}
-.btn-lg:active{
-    background-color: #F15A29;
-    color: white;
 }
 #pic-breakfast{
     background-image: url("../img/foodtop/breakfast.jpg");
@@ -204,3 +215,59 @@ body{
 .tops{
     font-family: 'Julius Sans', sans-serif;
 }
+/* .btn-menu{
+    text-align: left;
+    padding-top: 11%;
+    padding-left: 10%;
+} */
+div.nav{
+    background-color: rgba(255, 255, 255, 0);
+    text-align: right;
+    padding-top: 5%;
+    padding-right: 5%;
+}
+.nav .fa{
+    color: rgb(216, 205, 201);
+}
+.container-fluid{
+    margin: 0;
+    padding: 0;
+}
+.menutop{
+    background-color: rgba(0, 0, 0, 0.72);
+    height: 100vh;
+    transition: 0.5s;
+    position: fixed;
+    z-index: 5;
+    overflow-x: hidden;
+    width: 0;
+}
+.menutop-content{
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+.menutop a {
+    padding: 0;
+    text-decoration: none;
+    font-size: 70px;
+    color: #fafafa;
+    display: block;
+    transition: 0.3s;
+    font-family: 'Caveat';
+}
+.menutop a:hover, .menutop a:focus {
+    color: #F15A29;
+}
+.menutop .closebtn {
+    position: absolute;
+    top: 1em;
+    right: 2em;
+    font-size: 50px;
+}
+.row {
+    margin-right: 0;
+    margin-left: 0;
+  }
