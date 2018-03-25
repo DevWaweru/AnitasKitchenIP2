@@ -151,6 +151,7 @@ body{
 .col-md-3{
     padding-left: 0;
     padding-right: 0;
+    position: relative;
 }
 .btn-lg:hover{
     background-color: #F15A29;
@@ -162,17 +163,33 @@ body{
     font-family: 'Julius Sans',sans-serif;
     font-size: bold;
 }
-#pic-breakfast{
-    background-image: url("../img/foodtop/breakfast.jpg");
-    background-size: cover;
+.col-md-3 img{
+    opacity: 1;
+    display: block;
+    width: 100%;
+    transition: 0.5s ease;
 }
-#pic-lunch{
-    background-image: url("../img/foodtop/lunch.jpg");
-    background-size: cover;
+.text-meal{
+    opacity: 0;
+    transition: 0.5s ease;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
-#pic-dinner{
-    background-image: url("../img/foodtop/dinner.jpg");
-    background-size: cover;
+.col-md-3:hover, .img-food{
+    opacity: 0.3;
+    cursor: pointer;
+    color: white;
+}
+.col-md-3:hover .text-meal {
+    opacity: 1;
+}
+.meal{
+    color: white;
+    font-size: 300%;
+    font-family: 'Caveat';
+    font-style: bold;
 }
 .foodtop{
     text-align: center;
@@ -260,12 +277,17 @@ div.nav{
 }
 .menutop a:hover, .menutop a:focus {
     color: #F15A29;
+    font-family: 'Covered By Your Grace';
+    transform-style: 0.5s;
 }
 .menutop .closebtn {
     position: absolute;
     top: 1em;
     right: 2em;
-    font-size: 50px;
+    font-size: 70px;
+}
+.nav a:hover{
+    cursor: pointer;
 }
 .row {
     margin-right: 0;
