@@ -148,6 +148,15 @@ body{
     background-color: white;
     text-align: center;
 }
+.ffoods i{
+    color: #F15A29;
+}
+.ffoods a{
+    padding-top: 10%;
+}
+.col-md-7 i{
+    color: #F15A29;
+}
 .btn-lg:hover{
     background-color: #F15A29;
     color: white;
@@ -222,6 +231,9 @@ body{
     height: 90vh;
     width: 80vw;
 }
+.close{
+    z-index: 10;
+}
 .group-pics{
     box-shadow: 1px 2px 3px 3px #DCDCDC;
     text-align: center;
@@ -274,7 +286,7 @@ div.nav{
     padding: 0;
 }
 .menutop{
-    background-color: rgba(0, 0, 0, 0.72);
+    background-color: rgba(241, 91, 41, 0.652);
     height: 100vh;
     transition: 0.5s;
     position: fixed;
@@ -293,13 +305,13 @@ div.nav{
     padding: 0;
     text-decoration: none;
     font-size: 70px;
-    color: #fafafa;
+    color: #000000;
     display: block;
     transition: 0.3s;
     font-family: 'Caveat';
 }
 .menutop a:hover, .menutop a:focus {
-    color: #F15A29;
+    color: rgb(247, 247, 247);
     font-family: 'Covered By Your Grace';
     transform-style: 0.5s;
 }
@@ -316,3 +328,11 @@ div.nav{
     margin-right: 0;
     margin-left: 0;
   }
+
+.close .closebtn {
+    position: absolute;
+    top: 0.2em;
+    right: 0.5em;
+    font-size: 70px;
+    text-decoration: none;
+}

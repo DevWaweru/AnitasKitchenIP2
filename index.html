@@ -12,6 +12,15 @@
     <link href='https://fonts.googleapis.com/css?family=Covered By Your Grace' rel='stylesheet'>
     <link rel="stylesheet" href="css/font-awesome.css" type="text/css">
     <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-116285755-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-116285755-1');
+    </script>
     <title>Anita's Kitchen | Home</title>
 </head>
 <body>
@@ -124,6 +133,7 @@
                 <div class="tab-content ffoods">
                     <div id="foodie" class="tab-pane fade in active">
                         <div class="row row-food">
+                            <a href="#rice" data-toggle="tab"><i class="fa fa-chevron-left fa-2x"></i></a>
                             <div class="col-md-4 col-food">
                                 <img src="img/fastfood/beefBurger.jpg" alt="beefburger"><br>
                                 <p>Beef Burger</p>
@@ -136,30 +146,37 @@
                                 <img src="img/fastfood/chickenPizza.jpg" alt="chickenpizza"><br>
                                 <p>Chicken Pizza</p>
                             </div>
+                            <a href="#drinks" data-toggle="tab"><i class="fa fa-chevron-right fa-2x"></i></a>
                         </div>
                     </div>
                     <div id="drinks" class="tab-pane fade">
                         <div class="row row-food">
+                            <a href="#foodie" data-toggle="tab"><i class="fa fa-chevron-left fa-2x"></i></a>
                             <div class="col-md-12 col-food">
                                 <img src="img/fastfood/chickenBurger.jpg" alt="chickenburger">
                                 <p>Chicken Burger</p>
                             </div>
+                            <a href="#chicken" data-toggle="tab"><i class="fa fa-chevron-right fa-2x"></i></a>
                         </div>
                     </div>
                     <div id="chicken" class="tab-pane fade">
                         <div class="row row-food">
+                        <a href="#drinks" data-toggle="tab"><i class="fa fa-chevron-left fa-2x"></i></a>
                             <div class="col-md-12 col-food">
                                 <img src="img/fastfood/beefBurger.jpg" alt="beefburger">
                                 <p>Beef Burger</p>
                             </div>
+                        <a href="#rice" data-toggle="tab"><i class="fa fa-chevron-right fa-2x"></i></a>
                         </div>
                     </div>
                     <div id="rice" class="tab-pane fade">
                         <div class="row row-food">
+                        <a href="#chicken" data-toggle="tab"><i class="fa fa-chevron-left fa-2x"></i></a>
                             <div class="col-md-12 col-food">
                                 <img src="img/fastfood/chickenPizza.jpg" alt="chickenpizza">
                                 <p>Chicken pizza</p>
                             </div>
+                        <a href="#foodie" data-toggle="tab"><i class="fa fa-chevron-right fa-2x"></i></a>
                         </div>
                     </div>
                 </div>
@@ -175,9 +192,11 @@
                         <p>Great food! Menu is awesome. The foods are not only great but also in the right price. 
                             I'll highly recommend them:)
                         </p>
+                        <a href="#"><i class="fa fa-chevron-left fa-1x"></i></a>
                         <img src="img/customers/p1.png" alt="customer1">
                         <img src="img/customers/p2.png" alt="customer2">
                         <img src="img/customers/p3.png" alt="customer3">
+                        <a href="#"><i class="fa fa-chevron-right fa-1x"></i></a>
                     </div>
                     <div class="col-md-5">
                         <h3>About Menu</h3>
@@ -218,19 +237,36 @@
         <div class="modal fade" id="modal1" role="dialog"> 
             <div class="modal-dialog">
                 <div class="close" data-dismiss="modal">
-
+                    <a href="javascript:void(0)" class="closebtn">&times;</a>                    
                 </div>
                 <div class="container">
                     <div class="row">
                         <div class="col-md-8">
                             <div class="modal-body">
-                                <h2>Happy Hour Offers Available.</h2>
+                                <h2>Happy Hour Offers Available</h2>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+
+        <div class="modal fade" id="modal2" role="dialog"> 
+                <div class="modal-dialog">
+                    <div class="close" data-dismiss="modal">
+                        <a href="javascript:void(0)" class="closebtn">&times;</a>                    
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-8">
+                                <div class="modal-body">
+                                    <h2>Party Hours Offers Available</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
     </div>
     <script src="js/scripts.js"></script>
 </body>
