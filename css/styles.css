@@ -148,11 +148,6 @@ body{
     background-color: white;
     text-align: center;
 }
-.col-md-3{
-    padding-left: 0;
-    padding-right: 0;
-    position: relative;
-}
 .btn-lg:hover{
     background-color: #F15A29;
     color: white;
@@ -163,7 +158,12 @@ body{
     font-family: 'Julius Sans',sans-serif;
     font-size: bold;
 }
-.col-md-3 img{
+.col-md-3{
+    padding-left: 0;
+    padding-right: 0;
+    position: relative;
+}
+.foods img{
     opacity: 1;
     display: block;
     width: 100%;
@@ -177,12 +177,12 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
 }
-.col-md-3:hover, .img-food{
+.foods:hover, .img-food{
     opacity: 0.3;
     cursor: pointer;
     color: white;
 }
-.col-md-3:hover .text-meal {
+.foods:hover .text-meal {
     opacity: 1;
 }
 .meal{
@@ -198,6 +198,29 @@ body{
 .foodtop p{
     padding-top: 30%;
     padding-bottom: 30%;
+}
+
+.session{
+    padding-top: 11%;
+    padding-bottom:10%;
+}
+.session-link{
+    font-family: 'Roboto Slab', serif;
+    font-size: 150%;
+}
+.session-link:hover{
+    text-decoration: none;
+}
+.s-one{
+    background-color: #F15A29;
+}
+.s-one a{
+    color: white;
+}
+.modal-dialog{
+    background-color: white;
+    height: 90vh;
+    width: 80vw;
 }
 .group-pics{
     box-shadow: 1px 2px 3px 3px #DCDCDC;
