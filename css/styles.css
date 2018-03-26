@@ -88,7 +88,7 @@ body{
 #subscribe{
     background-color: #F15A29;
     border-color: #F15A29;
-    width: 12vw;
+    width: 140px;
     color: white;
 }
 .nav{
@@ -225,8 +225,8 @@ body{
     color: white;
 }
 .modal-dialog{
-    background-color: white;
-    height: 90vh;
+    background-color: rgba(36, 33, 33, 0.644);
+    height: 140vh;
     width: 80vw;
 }
 .close{
@@ -243,9 +243,7 @@ body{
     width: 100%;
 }
 .drnks img{
-    height: auto;
-    max-width: 100%;
-    size: cover;
+    width: auto;
 }
 .text-second{
     text-align: right;
@@ -339,4 +337,27 @@ div.nav{
     text-align: center;
     padding-top: 4em;
     padding-bottom: 4em; 
+}
+.modal-body img{
+    width: 80%;
+}
+@media screen and (max-width:991px){
+    .col-md-5{
+        text-align: center;
+        padding-left: 4em;
+        padding-right: 4em;
+        border-left: 0;
+        border-width: thin;
+        border-color: rgba(128, 128, 128, 0.57);
+    }
+    .modal-body img{
+        width: 70%;
+    }
+    .modal-dialog{
+        height: 90vh;
+    }
+    .col-food img{
+        padding: 0;
+        width: 50%;
+    }
 }
