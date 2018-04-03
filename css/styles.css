@@ -1,43 +1,55 @@
-@font-face{
+@font-face {
     font-family: 'Julius Sans';
     src: url('../fonts/Julius Sans.woff2');
 }
-.master{
+
+.master {
     background-attachment: fixed;
     background-image: url("../img/backgrounds/landing.jpg");
     background-size: cover;
     text-align: center;
     color: white;
 }
-.fa{
+
+.fa {
     color: white;
 }
-.glyphicon{
+
+.glyphicon {
     width: 8%;
 }
-.tops{
+
+.tops {
     padding-top: 15%;
     padding-bottom: 15%;
 }
-body{
+
+body {
     margin-left: 0;
     margin-right: 0;
 }
-.first{
+
+.first {
     padding-top: 5em;
     padding-bottom: 2em;
 }
-.second{
+
+.second {
     padding-top: 2em;
     padding-bottom: 5em;
 }
-.first h3, .second h3{
+
+.first h3,
+.second h3 {
     font-family: "Julius Sans", sans-serif;
 }
-.first h1, .second h1{
+
+.first h1,
+.second h1 {
     font-family: 'Roboto Slab', serif;
 }
-.tabs{
+
+.tabs {
     background-attachment: scroll;
     background-image: url("../img/backgrounds/foodsBg.jpg");
     background-size: cover;
@@ -45,7 +57,8 @@ body{
     padding-bottom: 7em;
     color: white;
 }
-.new-container{
+
+.new-container {
     padding-right: 25px;
     padding-left: 25px;
     margin-right: auto;
@@ -53,22 +66,26 @@ body{
     padding-top: 5em;
     padding-bottom: 5em;
 }
-.customers{
+
+.customers {
     box-shadow: 2px 4px 12px 2px #DCDCDC;
     padding-top: 2em;
     padding-bottom: 2em;
     font-family: 'Roboto Slab', serif;
     color: rgb(65, 63, 63);
 }
-.customers h3{
+
+.customers h3 {
     color: #F15A29;
 }
-.col-md-7{
+
+.col-md-7 {
     padding-left: 4em;
     padding-right: 4em;
     text-align: center;
 }
-.col-md-5{
+
+.col-md-5 {
     text-align: center;
     padding-left: 4em;
     padding-right: 4em;
@@ -76,7 +93,8 @@ body{
     border-width: thin;
     border-color: rgba(128, 128, 128, 0.57);
 }
-.subscribe{
+
+.subscribe {
     background-attachment: scroll;
     background-image: url("../img/backgrounds/subscribe.jpg");
     background-size: cover;
@@ -85,98 +103,112 @@ body{
     color: white;
     text-align: center;
 }
-#subscribe{
-    background-color: #F15A29;
-    border-color: #F15A29;
-    width: 140px;
-    color: white;
-}
-.nav{
+
+.nav {
     background-color: #D3D3D3;
 }
-.nav-tabs{
+
+.nav-tabs {
     border-bottom: 1px solid #ddd;
 }
-.nav-tabs a{
+
+.nav-tabs a {
     font-family: 'Scope One', serif;
     font-size: 17px;
     font-weight: bold;
-    color:rgba(0, 0, 0, 0.7);
+    color: rgba(0, 0, 0, 0.7);
 }
-.nav-food{
+
+.nav-food {
     border: solid gray;
     border-top-right-radius: 0;
     border-top-left-radius: 0;
     border-width: 0.01em;
 }
-.nav-food:hover a{
+
+.nav-food:hover a {
     color: #F15A29;
 }
-.col-food{
+
+.col-food {
     padding: 0;
     color: #F15A29;
-    font-family: 'Roboto Slab',serif;
+    font-family: 'Roboto Slab', serif;
     width: auto;
     text-align: center;
 }
-.row-food{
+
+.row-food {
     display: flex;
     justify-content: center;
 }
-.col-food img{
+
+.col-food img {
     padding: 1em;
 }
-.nav-food:active a{
+
+.nav-food:active a {
     color: #F15A29;
 }
-.subscribe h2{
+
+.subscribe h2 {
     font-family: 'Julius Sans', sans-serif;
 }
-.ending{
+
+.ending {
     background-color: #F15A29;
-    
 }
-.end-text{
+
+.end-text {
     color: white;
     text-align: center;
     padding-top: 3em;
     padding-bottom: 3em;
 }
-.ffoods{
+
+.ffoods {
     padding-top: 5em;
     padding-bottom: 5em;
     background-color: white;
     text-align: center;
 }
-.ffoods i{
+
+.ffoods i {
     color: #F15A29;
 }
-.ffoods a{
+
+.ffoods a {
     padding-top: 10%;
 }
-.col-md-7 i{
+
+.col-md-7 i {
     color: #F15A29;
 }
-.btn-lg:hover{
+
+.btn-lg:hover {
     background-color: #F15A29;
     color: white;
 }
-.btn-lg{
+
+.btn-lg {
     color: #F15A29;
     border-color: #F15A29;
-    font-family: 'Julius Sans',sans-serif;
+    font-family: 'Julius Sans', sans-serif;
     font-size: bold;
 }
-.col-md-3{
+
+.col-md-3 {
     padding-left: 0;
     padding-right: 0;
     position: relative;
 }
-.foods img{
+
+.foods img {
     opacity: 1;
     width: 100%;
 }
-.text-meal{
+
+.text-meal {
     opacity: 0;
     transition: 0.5s ease;
     position: absolute;
@@ -184,75 +216,93 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
 }
-.foods:hover, .img-food{
+
+.foods:hover,
+.img-food {
     opacity: 0.3;
     cursor: pointer;
     color: white;
 }
+
 .foods:hover .text-meal {
     opacity: 1;
 }
-.meal{
+
+.meal {
     color: white;
     font-size: 300%;
     font-family: 'Caveat';
     font-style: bold;
 }
-.foodtop{
+
+.foodtop {
     text-align: center;
     color: white;
 }
-.foodtop p{
+
+.foodtop p {
     padding-top: 30%;
     padding-bottom: 30%;
 }
 
-.session{
+.session {
     padding-top: 11%;
-    padding-bottom:10%;
+    padding-bottom: 10%;
 }
-.session-link{
+
+.session-link {
     font-family: 'Roboto Slab', serif;
     font-size: 150%;
 }
-.session-link:hover{
+
+.session-link:hover {
     text-decoration: none;
 }
-.s-one{
+
+.s-one {
     background-color: #F15A29;
 }
-.s-one a{
+
+.s-one a {
     color: white;
 }
-.modal-dialog{
+
+.modal-dialog {
     background-color: rgba(36, 33, 33, 0.644);
     height: 140vh;
     width: 80vw;
 }
-.close{
+
+.close {
     z-index: 10;
 }
-.group-pics{
+
+.group-pics {
     box-shadow: 1px 2px 3px 3px #DCDCDC;
     text-align: center;
     padding: 3%;
     border-radius: 0;
     vertical-align: middle;
 }
-.ffods img{
+
+.ffods img {
     width: 100%;
 }
-.drnks img{
+
+.drnks img {
     width: auto;
 }
-.text-second{
+
+.text-second {
     text-align: right;
     padding-right: 5em;
 }
-.text-first{
+
+.text-first {
     padding-left: 5em;
 }
-.form-control{
+
+.form-control {
     background-color: rgba(255, 255, 255, 0.315);
     border-width: 0;
     padding-right: 5em;
@@ -260,28 +310,34 @@ body{
     vertical-align: middle;
     color: black;
 }
-.tops{
+
+.tops {
     font-family: 'Julius Sans', sans-serif;
 }
+
 /* .btn-menu{
     text-align: left;
     padding-top: 11%;
     padding-left: 10%;
 } */
-div.nav{
+
+div.nav {
     background-color: rgba(255, 255, 255, 0);
     text-align: right;
     padding-top: 5%;
     padding-right: 5%;
 }
-.nav .fa{
+
+.nav .fa {
     color: rgb(216, 205, 201);
 }
-.container-fluid{
+
+.container-fluid {
     margin: 0;
     padding: 0;
 }
-.menutop{
+
+.menutop {
     background-color: rgba(241, 91, 41, 0.652);
     height: 100vh;
     transition: 0.5s;
@@ -290,13 +346,15 @@ div.nav{
     overflow-x: hidden;
     width: 0;
 }
-.menutop-content{
+
+.menutop-content {
     position: relative;
     top: 25%;
     width: 100%;
     text-align: center;
     margin-top: 30px;
 }
+
 .menutop a {
     padding: 0;
     text-decoration: none;
@@ -306,24 +364,29 @@ div.nav{
     transition: 0.3s;
     font-family: 'Caveat';
 }
-.menutop a:hover, .menutop a:focus {
+
+.menutop a:hover,
+.menutop a:focus {
     color: rgb(247, 247, 247);
     font-family: 'Covered By Your Grace';
     transform-style: 0.5s;
 }
+
 .menutop .closebtn {
     position: absolute;
     top: 1em;
     right: 2em;
     font-size: 70px;
 }
-.nav a:hover{
+
+.nav a:hover {
     cursor: pointer;
 }
+
 .row {
     margin-right: 0;
     margin-left: 0;
-  }
+}
 
 .close .closebtn {
     position: absolute;
@@ -332,17 +395,20 @@ div.nav{
     font-size: 70px;
     text-decoration: none;
 }
-.modal-body{
+
+.modal-body {
     color: #F15A29;
     text-align: center;
     padding-top: 4em;
-    padding-bottom: 4em; 
+    padding-bottom: 4em;
 }
-.modal-body img{
+
+.modal-body img {
     width: 80%;
 }
-@media screen and (max-width:991px){
-    .col-md-5{
+
+@media screen and (max-width:991px) {
+    .col-md-5 {
         text-align: center;
         padding-left: 4em;
         padding-right: 4em;
@@ -350,14 +416,37 @@ div.nav{
         border-width: thin;
         border-color: rgba(128, 128, 128, 0.57);
     }
-    .modal-body img{
+    .modal-body img {
         width: 70%;
     }
-    .modal-dialog{
+    .modal-dialog {
         height: 90vh;
     }
-    .col-food img{
+    .col-food img {
         padding: 0;
         width: 50%;
     }
+}
+
+#mc_embed_signup {
+    /* background: #fff; */
+    clear: left;
+    font: 14px Helvetica, Arial, sans-serif;
+}
+
+#mc-embedded-subscribe {
+    background-color: #F15A29;
+    border-color: #F15A29;
+    width: 140px;
+    color: white;
+}
+#mc_embed_signup .mc-field-group input{
+    width: 30%;
+    margin-left: 40%;
+    margin-bottom: 1%;
+    padding: 0;
+}
+.mc-field-group{
+    text-align: center;
+    padding-bottom: 0;
 }
